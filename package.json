@@ -4,7 +4,7 @@
   "description": "<p align=\"center\">\r   <img width=\"400\" height=\"300\" src=\"https://media.tenor.com/OamK13PpsYIAAAAC/jonah-hill-excited.gif\">\r </p>",
   "main": "index.js",
   "scripts": {
-    "start":"nodemon app.js",
+    "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/carolinadiniz/ProjetoIntegradorFullStack/issues"
   },
-  "homepage": "https://github.com/carolinadiniz/ProjetoIntegradorFullStack#readme"
+  "homepage": "https://github.com/carolinadiniz/ProjetoIntegradorFullStack#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.7.2"
+  }
 }
