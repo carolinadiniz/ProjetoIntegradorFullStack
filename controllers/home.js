@@ -4,7 +4,7 @@ module.exports = (app) => {
             res.render('login')
         },
         login: (req, res, next) => {
-            res.send({msg: 'logged'})
+            console.log(req.body)
         }
     }
     return HomeController;
