@@ -4,22 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheets/reset.css">
+    <link rel="stylesheet" href="stylesheets/login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
     <title>KODI | Login</title>
 </head>
 <body>
-    <section>
-        <div>
+    <section class="content-login">
+        <div class="login-box">
             <h1>LOGIN</h1>
             <form action="/login" method="post">
-                <span>Email</span>
+                <span class="text">Email</span>
                 <input type="email" name="email">
-                <span>Senha</span>
+                <span class="text">Senha</span>
                 <input type="password" name="password">
                 <button type="submit">Entrar</button>
             </form>
             <a href="#">Esqueceu a senha?</a>
-            <div></div>
-            <a href="#"><button type="submit">Criar nova conta</button></a>
+            <div class="hr"></div>
+            <a href="#">
+                <button type="submit" class="btn-newAccount">Criar nova conta</button>
+            </a>
         </div>
     </section>
 </body>

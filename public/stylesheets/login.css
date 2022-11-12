@@ -1,0 +1,104 @@
+body {
+    display: block;
+    background-color: #273037;
+}
+
+/* BOX */
+.content-login {
+    position: relative;
+    width: 431px;
+    height: 524px;
+    background: #4F4F4F;
+    border-radius: 22px;
+    margin: 0 auto;
+}
+.login-box {
+    display: block;
+    height: 504px;
+    margin-left: 47px;
+    margin-top: 100px;
+    padding-top: 47px;
+}
+
+/* FORM */
+.login-box h1 {
+    display: inline-block;
+    margin-bottom: 6px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+.login-box .text {
+    display: block;
+    margin-top: 18px;
+    margin-bottom: 8px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+.login-box input {
+    display: block;
+    position: relative;
+    margin-bottom: 5px;
+    width:337px;
+    height: 38px;
+    border-radius: 8px;
+    border: none;
+    margin-right: 45px;
+    background-color: #D9D9D9;
+}
+
+/* BUTTONS */
+.login-box button {
+    margin-top: 16px;
+    margin-bottom: 12px;
+    height: 43px;
+    width: 337px;
+    left: 138px;
+    top: 82px;
+    border-radius: 6px;
+    border: none;
+    background: #5591C9;
+    font-family: 'JejuGothic', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+.login-box button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    border: 2px solid #656565
+}
+.login-box .btn-newAccount {
+    background: #54B444;
+}
+
+/* LINKS */
+.login-box a {
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #5591C9;
+}
+
+/* HOZIONTAL LINE */
+.login-box .hr {
+    display: block;
+    width: 401px;
+    height: 1px;
+    margin-top: 25px;
+    margin-bottom: 14px;
+    margin-left: -30px;
+    background-color: #626262;
+}
