@@ -37,7 +37,7 @@ As nossas monitoras já criaram o kanban  para cada grupo vocês devem colocas a
 Nessa o sprint o grupo vai se reunir para decidir o tema.  Decidido o tema, fazer a organização do quadro Kanban, dividir as tarefas, desenhar o  caso de uso e definir as regras de negócio.  Fazer uma função simples do que seria o projeto somente para testar no console. (Podemos utilizar como exemplo a Lista de Paises na copa)
 
 - [x] Definir o tema;
-- [x Fazer o fork desse repositório;
+- [x] Fazer o fork desse repositório;
 - [ ] Organizar quadro Kanban;
 - [ ] Dividir as tarefas;
 - [ ] Desenhar caso de uso;
