@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheets/reset.css">
+    <link rel="stylesheet" href="stylesheets/login.css">
+    <link rel="stylesheet" href="stylesheets/register.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <title>KODI | Login</title>
+</head>
+<body>
+    <section class="content-login">
+        <div class="login-box">
+            <div class="left-box">
+                <h1>LOGIN</h1>
+                <form action="/login" method="post">
+                    <span class="text">Email</span>
+                    <input type="email" name="email">
+                    <span class="text">Senha</span>
+                    <input type="password" name="password">
+                    <button type="submit" class="btn">Entrar</button>
+                </form>
+                <a href="#">Esqueceu a senha?</a>
+            </div>
+            <div class="vl"></div>
+            <div class="right-box">
+                <h1>Cadastro</h1>
+                <form action="/register" method="post">
+                    <span class="text">Nome completo</span>
+                    <input type="text" name="name" required="required">
+                    <span class="text">Email</span>
+                    <input type="email" name="email" required="required">
+                    <span class="text">Senha</span>
+                    <input type="password" name="password" minlength="8" required="required">
+                    <div>
+                        <input type="radio" name="type" id="personal" required="required">
+                        <span>Pessoal</span>
+                    </div>
+                    <div>
+                        <input type="radio" name="type" id="business">
+                        <span>Empresarial</span>
+                    </div>
+                    <button type="submit" class="btn">Começar agora!</button>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

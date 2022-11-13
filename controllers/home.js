@@ -31,12 +31,10 @@ module.exports = (app) => {
                             res.redirect('/jobs')
                             console.log(`new login: _id ${user._id}`)
                         } else {
-                            res.status(401).redirect('/')
+                            res.status(401).redirect('/login')
                             console.log(`error password: ${email}`)
                         }
                     })
-
-
                 }
 
             })

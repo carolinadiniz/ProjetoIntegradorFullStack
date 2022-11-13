@@ -1,19 +1,17 @@
 const jwt = require('jsonwebtoken')
 
 module.exports = (req, res, next) => {
-    next() // <<<<<___ ______)_______ ________ __ ____    __R E M O V E R
-
     try {
         // Get token from session
         const token = req.session.token
         
         //
         if (token == undefined) {
-            res.status(401).redirect('/')
+            res.status(401).redirect('/login')
         }
 
         jwt.verify(token, process.env.ACCESS_TOKEN_SECRET, (err, decoded) => {
-            if (err) return res.status(401).redirect('/')
+            if (err) return res.status(401).redirect('/login')
 
             req.session.user = decoded
         })   
