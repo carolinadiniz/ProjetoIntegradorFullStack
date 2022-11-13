@@ -26,8 +26,7 @@ module.exports = (app) => {
                             const token = jwt.sign({
                                 id_user: user._id,
                                 email: user.email
-                            }, process.env.ACCESS_TOKEN_SECRET, {expiresIn: "1h"})
-                            console.log(`login token ${token}`)
+                            }, process.env.ACCESS_TOKEN_SECRET, {expiresIn: "7d"})
                             req.session.token = token
                             res.redirect('/jobs')
                             console.log(`new login: _id ${user._id}`)

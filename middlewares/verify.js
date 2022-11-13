@@ -1,6 +1,7 @@
 const jwt = require('jsonwebtoken')
 
 module.exports = (req, res, next) => {
+    next() // <<<<<___ ______)_______ ________ __ ____    __R E M O V E R
 
     try {
         // Get token from session
@@ -15,8 +16,6 @@ module.exports = (req, res, next) => {
             if (err) return res.status(401).redirect('/')
 
             req.session.user = decoded
-
-            console.log(decoded)
         })   
 
         next()

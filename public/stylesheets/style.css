@@ -1,0 +1,87 @@
+body {
+    background-color: #273037;
+}
+
+header {
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 49px;
+    background-color: #4F4F4F;
+    z-index: 100;
+}
+
+.clear {
+    clear: both;
+}
+
+/* LOGO */
+#logo {
+    float: left;
+    margin-left: 32px;
+    margin-top: 6px;
+}
+#logo h1 {
+    font-family: Inter, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#FFFFFF;
+}
+#logo span { 
+    color: #f53030;
+}
+
+/* NAV LIST */
+nav {
+    float: right;
+}
+.nav-itens {
+    display: inline-block;
+    width: 43px;
+    height: 43px;
+    background-color: #D9D9D9;
+    border-radius: 50%;
+    margin-top: 3px ;
+    margin-right: 32px;
+}
+
+.main-content {
+    float: left;
+    width:1100px;
+    height: 5000px;
+    margin-top: 70px;
+}
+
+.discovery {
+    float: left;
+    margin-left: 10px;
+    height: 100px;
+    width: 300px;
+    border-radius: 12px;
+    background-color: #D9D9D9;
+}
+
+.feed {
+    float: right;
+    width: 775px;
+}
+
+.post {
+    min-height: 122px;
+    width: 775px;
+    border-radius: 12px;
+    background-color: #D9D9D9;
+    display: inline-block;
+    margin-bottom: 13px;
+}
+
+.post_hr {
+    height: 1px;
+    width: 747px;
+    border-radius: 0px;
+    background: #e3e3e3;
+    margin: 0 auto;
+}
