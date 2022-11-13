@@ -1,10 +1,10 @@
 require('dotenv').config()
+require('./database')
 const express = require('express')
 const consign = require('consign')
 const bodyParser = require('body-parser')
 const cookieParser = require('cookie-parser')
 const session = require('express-session')
-const database = require('./database')
 const path = require('path')
 const app = express()
 
